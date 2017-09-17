@@ -1,3 +1,5 @@
+#This is the code for the recciving tower on the mainland. This tower does not need to send so it recives data and it writes it to a text file.
+
 import RFM69
 from RFM69registers import *
 import datetime
