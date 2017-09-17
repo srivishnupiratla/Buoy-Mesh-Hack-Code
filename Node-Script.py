@@ -1,3 +1,5 @@
+#This is the script for all the normal nodes in this mesh network. These nodes have to send and recive so they have both functions built into them.
+
 import RFM69
 from RFM69registers import *
 import datetime
