@@ -1,3 +1,6 @@
+#This is the code for the last buoy in the mesh network. Scince it cannot recive, anything, it only sends data to the other nodes.
+
+
 import RFM69
 from RFM69registers import *
 import datetime
