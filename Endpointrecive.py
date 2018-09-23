@@ -5,6 +5,8 @@ from RFM69registers import *
 import datetime
 import time
 import base64
+import customcode
+from customcode2 import 
 cap = cv2.VideoCapture(0)
 x=0
 
@@ -24,3 +26,10 @@ while true:
             if rm.ACKRequested():
 
                 rm.sendACK()
+                
+            #psuedocode example
+            rm.writetofile(decision.py)
+            sleep("30","Days")
+            model.train()
+            model.reddploy()  
+          
